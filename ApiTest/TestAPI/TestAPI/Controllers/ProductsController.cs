@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,17 +26,26 @@ namespace TestAPI.Controllers
         [HttpGet("")]
         public IActionResult GetAll()
         {
-            return Ok(_context.Products.Where(x=>!x.IsDeleted).ToList());
+            return Ok(_context.Products.Where(x=>!x.IsDeleted).Include(x=>x.Category).ToList());
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            Product product = _context.Products.Where(x => !x.IsDeleted).FirstOrDefault(x => x.Id == id);
+            Product product = _context.Products.Where(x => !x.IsDeleted).Include(x=>x.Category).FirstOrDefault(x => x.Id == id);
 
             if (product == null) return NotFound();
 
-            return Ok(product);
+            ProductDetailDto productDetailDto = new ProductDetailDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                CostPrice = product.CostPrice,
+                SalePrice = product.SalePrice,
+                CategoryName = product.Category.Name
+            };
+
+            return Ok(productDetailDto);
         }
 
 

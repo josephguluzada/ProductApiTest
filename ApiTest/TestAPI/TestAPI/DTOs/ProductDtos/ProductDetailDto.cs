@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TestAPI.Data.Entities
+namespace TestAPI.DTOs.ProductDtos
 {
-    public class Product : BaseEntity
+    public class ProductDetailDto
     {
-        public int? CategoryId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public double CostPrice { get; set; }
         public double SalePrice { get; set; }
-        public Category Category { get; set; }
+        public string CategoryName { get; set; }
     }
 }

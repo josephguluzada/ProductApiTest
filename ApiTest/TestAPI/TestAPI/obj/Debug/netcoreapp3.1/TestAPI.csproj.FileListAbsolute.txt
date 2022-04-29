@@ -122,3 +122,6 @@ C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debu
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.dll
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.pdb
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.genruntimeconfig.cache
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
