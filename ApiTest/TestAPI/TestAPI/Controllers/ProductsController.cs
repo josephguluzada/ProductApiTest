@@ -36,5 +36,15 @@ namespace TestAPI.Controllers
 
             return Ok(product);
         }
+
+
+        [HttpPost("")]
+        public IActionResult Create(Product product)
+        {
+            _context.Add(product);
+            _context.SaveChanges();
+
+            return StatusCode(201, product);
+        }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\AllProject\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj": {}
+    "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\AllProject\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj": {
+    "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\AllProject\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj",
         "projectName": "TestAPI",
-        "projectPath": "C:\\Users\\asus\\Desktop\\AllProject\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\AllProject\\ApiTest\\TestAPI\\TestAPI\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
