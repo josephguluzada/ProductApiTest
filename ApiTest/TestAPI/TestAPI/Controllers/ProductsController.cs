@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TestAPI.Data;
 using TestAPI.Data.Entities;
+using TestAPI.DTOs.ProductDtos;
 
 namespace TestAPI.Controllers
 {
@@ -24,13 +25,13 @@ namespace TestAPI.Controllers
         [HttpGet("")]
         public IActionResult GetAll()
         {
-            return Ok(_context.Products.ToList());
+            return Ok(_context.Products.Where(x=>!x.IsDeleted).ToList());
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            Product product = _context.Products.FirstOrDefault(x => x.Id == id);
+            Product product = _context.Products.Where(x => !x.IsDeleted).FirstOrDefault(x => x.Id == id);
 
             if (product == null) return NotFound();
 
@@ -39,12 +40,22 @@ namespace TestAPI.Controllers
 
 
         [HttpPost("")]
-        public IActionResult Create(Product product)
+        public IActionResult Create(ProductPostDto productDto)
         {
+            Product product = new Product
+            {
+                Name = productDto.Name,
+                CostPrice = productDto.CostPrice,
+                SalePrice = productDto.SalePrice,
+                CreatedAt = DateTime.UtcNow.AddHours(4),
+                ModifiedAt = DateTime.UtcNow.AddHours(4),
+                IsDeleted = false
+            };
+
             _context.Add(product);
             _context.SaveChanges();
 
-            return StatusCode(201, product);
+            return StatusCode(201, productDto);
         }
     }
 }
