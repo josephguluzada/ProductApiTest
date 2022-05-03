@@ -128,3 +128,4 @@ C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debu
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csproj.AssemblyReference.cache
