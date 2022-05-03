@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fwfggX2Buf6Mdedrrz1VmFGTz4IRu/r13vH+rV55zUGbiuZyLbYQrYXtnxrDNXozUh1MMH77AO0vposcB3Z31Q==",
+  "dgSpecHash": "rXK+OUbJM/gKflgpV4WnQ1s8MS2OjAl+32LKJtg0GXENsFmkV3JC8cE6wMBmH3fDTZMUmoIxMuphLI1ib04eHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Desktop\\AllProject\\ProductApiTest\\ApiTest\\TestAPI\\TestAPI\\TestAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.0\\fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.24\\microsoft.aspnetcore.jsonpatch.3.1.24.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.24\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.24.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -124,4 +124,7 @@ C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debu
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\asus\Desktop\AllProject\ProductApiTest\ApiTest\TestAPI\TestAPI\obj\Debug\netcoreapp3.1\TestAPI.MvcApplicationPartsAssemblyInfo.cs
